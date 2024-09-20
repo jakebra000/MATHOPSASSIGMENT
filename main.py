@@ -1,7 +1,11 @@
-frisbees = 3  #pretend we got from user input
-COST_OF_FRISBEES = 15
-total_cost =45 #YOU DO THIS PART WITH VARIABLES AND MATH OPS
-print("The total cost is $", total_cost, sep="")
-print("COST_OF_FRISBEES each  15$")
-print("I want to buy 3 FRISBEES" )
+miles = 5 #pretend this came from user input
+minutes = 45 #pretend this came from user input
+hours = minutes / 60
 
+mph = miles / hours
+
+print("How many miles did you run?", miles)
+
+print(" How many minutes did it take you?", minutes )
+
+print(" Speed in mph", mph )
